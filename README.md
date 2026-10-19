@@ -93,8 +93,9 @@ Late delivery % is calculated on orders that were **not cancelled**. Cancelled o
 
 ## Data
 
-- Source: DataCo Smart Supply Chain dataset (Kaggle), about 180,000 order lines covering around 66,000 orders.
-- The CSV file is about 96 MB, so I did not upload it here. Please download it from Kaggle.
+- Source: [DataCo Smart Supply Chain Dataset on Kaggle] (https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis)
+- The dataset contains approximately 180,000 order lines covering around 66,000 orders.
+- The CSV file is about 96 MB, so it is not included in this repository. Please download it from Kaggle using the link above.
 - The data model has a fact table (`Fact_Orders`) and a date table (`Dim_Date`), with DAX measures kept in a separate `_Measures` table.
 
 ## How to open this project
